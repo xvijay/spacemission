@@ -43,15 +43,13 @@ class Space extends React.Component {
       <Switch>
         <Route
           path="/currency"
-          render={props => <Currency {...props}></Currency>}
-        ></Route>
+          render={props => <Currency {...props}></Currency>}></Route>
         {this.state.missionData ? (
           <Route
             path="/mission"
             render={props => (
               <Mission {...props} data={this.state.missionData}></Mission>
-            )}
-          ></Route>
+            )}></Route>
         ) : (
           <Loader></Loader>
         )}
@@ -61,32 +59,24 @@ class Space extends React.Component {
             render={props => (
               <LaunchpadPage
                 {...props}
-                launchData={this.state.launchData}
-              ></LaunchpadPage>
-            )}
-          ></Route>
+                launchData={this.state.launchData}></LaunchpadPage>
+            )}></Route>
         ) : (
           <Loader></Loader>
         )}
         <Route
           path="/payload/:id?"
-          render={props => <PayloadClass {...props}></PayloadClass>}
-        ></Route>
+          render={props => <PayloadClass {...props}></PayloadClass>}></Route>
 
         <Route path="/">
           <Jumbotron className="centerDivJumbo">
-            <img
-              src="https://www.spacex.com/sites/spacex/files/spacex_logo_white.png"
-              alt="Home"
-              width="30%"
-            ></img>
+            <img src="./images/logoJumbo.png" alt="Home" width="30%"></img>
             <p
               style={{
                 marginTop: "2%",
                 fontFamily: "'Alatsi', sans-serif",
                 marginLeft: "-3%"
-              }}
-            >
+              }}>
               Application that provides information about SpaceX resources
             </p>
           </Jumbotron>
