@@ -36,7 +36,7 @@ class LaunchpadPage extends React.Component {
           <Col xs={6} md={4}>
             <Form.Group as={Row} controlId="formPlaintextPassword">
               <Form.Label column sm="3">
-                <span style={{ color: "white" }}>Select Status</span>
+                <span style={{ color: "white" }}>Status</span>
               </Form.Label>
               <Col sm="10">
                 <Form.Control as="select" onChange={e => this.updateContent(e)}>
