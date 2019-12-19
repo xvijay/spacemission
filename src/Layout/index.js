@@ -11,7 +11,7 @@ export default function App() {
         <Navbar.Brand href="#/">
           <img
             alt=""
-            src="/images/startup.png"
+            src="./images/startup.png"
             width="30"
             height="30"
             className="d-inline-block align-top"
