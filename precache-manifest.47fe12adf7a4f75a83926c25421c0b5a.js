@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e1c53c276706e0d7df3f4d5aca7fa45c",
+    "revision": "13b20a1e71600b203976df8947958cdb",
     "url": "/spacemission/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spacemission/static/css/2.17e5ed98.chunk.css"
   },
   {
-    "revision": "baeb4cfbe87c660e0e53",
+    "revision": "05d2b355a10cd609ae13",
     "url": "/spacemission/static/css/main.b7672fac.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spacemission/static/js/2.76cc24de.chunk.js.LICENSE"
   },
   {
-    "revision": "baeb4cfbe87c660e0e53",
-    "url": "/spacemission/static/js/main.45902d04.chunk.js"
+    "revision": "05d2b355a10cd609ae13",
+    "url": "/spacemission/static/js/main.0fd1eb13.chunk.js"
   },
   {
     "revision": "3dbb15cb98a4832a13bf",
